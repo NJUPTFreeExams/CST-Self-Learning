@@ -18,12 +18,6 @@ Docker: [KodeKloud - Docker Training Course for the Absolute Beginner](https://k
 
 ## 课程
 
-### 计算机科学
-
-- Computer Science Crash Course: [YouTube](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
-- 《编码》
-- [Nand2Tetris](https://www.nand2tetris.org/)
-
 ### 工程性知识
 
 语言：
