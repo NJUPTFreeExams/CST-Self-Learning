@@ -6,9 +6,9 @@ title: 大语言模型
 
 您会在您的学习和编程之旅中广泛地使用基于 LLM 的工具，例如 [Cursor](https://www.cursor.com/) 和 [GitHub Copilot](https://github.com/features/copilot) 已经深度融入了我的日常工作流中。并且，在可以预见的未来，这类工具将会变得越来越多、越来越强大、越来越普及。
 
-## 都有哪些 AI 模型产品？
+## 都有哪些 AI 模型和产品？
 
-(TODO)
+OpenAI: `gpt-3.5-turbo`, `gpt-4`, `gpt-4o`, `o1`
 
 ## 提示词工程
 
