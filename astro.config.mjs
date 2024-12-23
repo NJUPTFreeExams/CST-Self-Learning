@@ -26,6 +26,10 @@ export default defineConfig({
           label: "指南",
           items: [
             {
+              label: "提问和解决问题",
+              slug: "guides/ask-and-solve-problems",
+            },
+            {
               label: "硬件平台",
               slug: "guides/hardware-platform",
             },
@@ -34,8 +38,16 @@ export default defineConfig({
               slug: "guides/vpn-and-proxy",
             },
             {
+              label: "学生邮箱",
+              slug: "guides/student-email",
+            },
+            {
               label: "大语言模型",
               slug: "guides/llm",
+            },
+            {
+              label: "容器化",
+              slug: "guides/containerization",
             },
           ],
         },
