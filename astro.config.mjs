@@ -1,28 +1,37 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight';
+import { defineConfig } from "astro/config";
+import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-	integrations: [
-		starlight({
-			title: 'My Docs',
-			social: {
-				github: 'https://github.com/withastro/starlight',
-			},
-			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
-			],
-		}),
-	],
+  integrations: [
+    starlight({
+      title: "CST 自学指南",
+      defaultLocale: "root",
+      locales: {
+        root: {
+          label: "简体中文",
+          lang: "zh-CN",
+        },
+      },
+      social: {
+        github: "https://github.com/BlockLune/cst-self-learning",
+      },
+      sidebar: [
+        {
+          label: "简介",
+          items: [{ label: "快速开始", slug: "intro/getting-started" }],
+        },
+        {
+          label: "指南",
+          items: [
+            {
+              label: "硬件平台",
+              slug: "guides/hardware-platform",
+            },
+          ],
+        },
+      ],
+    }),
+  ],
 });
