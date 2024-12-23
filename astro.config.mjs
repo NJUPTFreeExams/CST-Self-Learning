@@ -15,7 +15,7 @@ export default defineConfig({
         },
       },
       social: {
-        github: "https://github.com/BlockLune/cst-self-learning",
+        github: "https://github.com/NJUPTFreeExams/CST-Self-Learning",
       },
       sidebar: [
         {
