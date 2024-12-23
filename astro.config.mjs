@@ -51,6 +51,32 @@ export default defineConfig({
             },
           ],
         },
+        {
+          label: "计算机科学",
+          items: [
+            {
+              label: "导论",
+              slug: "science/intro",
+            },
+          ],
+        },
+        {
+          label: "计算机技术",
+          items: [
+            {
+              label: "导论",
+              slug: "technology/intro",
+            },
+            {
+              label: "语言",
+              slug: "technology/languages",
+            },
+            {
+              label: "框架",
+              slug: "technology/frameworks",
+            },
+          ],
+        },
       ],
     }),
   ],
