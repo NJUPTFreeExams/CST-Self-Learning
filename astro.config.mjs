@@ -29,6 +29,10 @@ export default defineConfig({
               label: "硬件平台",
               slug: "guides/hardware-platform",
             },
+            {
+              label: "虚拟专用网和代理",
+              slug: "guides/vpn-and-proxy",
+            },
           ],
         },
       ],
