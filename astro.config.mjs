@@ -49,6 +49,10 @@ export default defineConfig({
               label: "容器化",
               slug: "guides/containerization",
             },
+            {
+              label: "书籍",
+              slug: "guides/books",
+            },
           ],
         },
         {
