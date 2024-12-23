@@ -26,8 +26,8 @@ export default defineConfig({
           label: "指南",
           items: [
             {
-              label: "提问和解决问题",
-              slug: "guides/ask-and-solve-problems",
+              label: "如何解决问题",
+              slug: "guides/how-to-solve-problems",
             },
             {
               label: "硬件平台",
