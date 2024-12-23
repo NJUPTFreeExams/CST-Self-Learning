@@ -16,12 +16,6 @@ title: 快速开始
 
 Docker: [KodeKloud - Docker Training Course for the Absolute Beginner](https://kodekloud.com/courses/docker-for-the-absolute-beginner/)
 
-### AI
-
-GitHub Copilot
-Oh My GPT
-[OpenRouter](https://openrouter.ai/)
-
 ## 课程
 
 ### 计算机科学

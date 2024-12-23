@@ -33,6 +33,10 @@ export default defineConfig({
               label: "虚拟专用网和代理",
               slug: "guides/vpn-and-proxy",
             },
+            {
+              label: "大语言模型",
+              slug: "guides/llm",
+            },
           ],
         },
       ],
