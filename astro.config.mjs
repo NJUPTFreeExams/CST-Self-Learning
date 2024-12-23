@@ -46,10 +46,6 @@ export default defineConfig({
               slug: "guides/llm",
             },
             {
-              label: "容器化",
-              slug: "guides/containerization",
-            },
-            {
               label: "书籍",
               slug: "guides/books",
             },
@@ -78,6 +74,10 @@ export default defineConfig({
             {
               label: "框架",
               slug: "technology/frameworks",
+            },
+            {
+              label: "容器化",
+              slug: "technology/containerization",
             },
           ],
         },
