@@ -1,0 +1,119 @@
+---
+title: 贡献指南
+---
+
+import { FileTree } from '@astrojs/starlight/components';
+
+这份资料的源代码开源在了 GitHub [NJUPTFreeExams/CST-Self-Learning](https://github.com/NJUPTFreeExams/CST-Self-Learning)。我们欢迎您以[创建拉取请求（PR）](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests)的方式向此项目贡献内容。
+
+## 项目框架与文件目录结构
+
+该项目是使用 [Astro](https://astro.build/) 构建的，使用了 [Starlight](https://starlight.astro.build/zh-cn/) 主题。
+
+文件目录结构如下：
+
+<FileTree>
+- public/
+- src
+  - **assets/**
+  - content/
+    - **docs/**
+      - intro/
+      - guides/
+      - science/
+      - technology/
+      - index.mdx
+      - ...
+- **astro.config.mjs**
+- package.json
+- tsconfig.json
+</FileTree>
+
+高亮显示的目录和文件是您需要重点关注的部分：
+
+- `src/assets/`：如果您需要在文档中插入图片等资源，可以将其放在这里。
+- `src/content/docs/`：这是文档的主要目录。您的文章应该放在这里。
+- `astro.config.mjs`：这是项目的配置文件。如果您新增了一篇文章，需要在这里添加对应的路由。
+
+更多关于项目的配置信息，请参考 [Astro 文档](https://docs.astro.build/zh-cn/) 和 [Starlight 文档](https://starlight.astro.build/zh-cn/)。
+
+## 文件格式
+
+我们使用 Markdown 进行文档编写。同时，我们也支持基于此扩展的 [MDX](https://mdxjs.com/) 格式。请阅读 [Starlight 文档](https://starlight.astro.build/zh-cn/guides/authoring-content/) 以了解更多。
+
+## 写作风格
+
+我们希望您的文章能够尽可能地符合一定的写作风格，以保证整个文档的一致性，提升读者的体验。例如，我们使用 “我们”、“作者” 等词语来指代文档作者，使用 “您” 来指代读者。
+
+这里是一份参考资料：
+
+- [中文技术文档写作风格指南](https://zh-style-guide.readthedocs.io/zh-cn/latest/index.html)
+
+## 步骤示例
+
+这是一个完整的示例，展示了如何向项目贡献一篇新的文章的步骤。在此流程中，您需要使用 Git 和 GitHub。所以，如果您还不熟悉 Git 和 GitHub，您可以参考本站的 [Git 和 GitHub](/technology/git-github) 文档。
+
+### 前置条件
+
+- 一个 [GitHub 账户](https://docs.github.com/zh/get-started/onboarding/getting-started-with-your-github-account)
+- 安装并配置好 [Git](https://git-scm.com) 环境
+- [PNPM](https://pnpm.io/zh/)
+- [VS Code](https://code.visualstudio.com/) 或其他文本编辑器
+
+### 具体步骤
+
+1. 首先，您需要前往[本项目的 GitHub 主页](https://github.com/NJUPTFreeExams/CST-Self-Learning)，点击右上角的 “Fork” 按钮，将项目[复刻](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests/working-with-forks)到您自己的账户下。
+2. 然后，您需要将项目克隆到本地。在您的终端中执行以下命令：
+
+```bash
+git clone git@github.com:NJUPTFreeExams/CST-Self-Learning.git
+```
+
+上面的命令将会在您的当前工作目录创建 `CST-Self-Learning` 子目录。
+
+3. 使用下面的命令进入该子目录：
+
+```bash
+cd CST-Self-Learning
+```
+
+4. 然后运行下面的命令来安装依赖：
+
+```bash
+pnpm i
+```
+
+5. 输入下面的命令来创建一个新的分支：
+
+```bash
+git checkout -b BRANCH_NAME
+```
+
+您需要将 `BRANCH_NAME` 替换为一个语义化的[有效字符](https://docs.github.com/zh/get-started/using-git/dealing-with-special-characters-in-branch-and-tag-names#naming-branches-and-tags)组成的分支名，例如 `update-contribution-guide`。
+
+6. 打开您的编辑器，修改文件并适时地使用 `git add` 和 `git commit` 来保存 Commit：
+
+```bash
+git add FILENAME
+git commit -m "SHORT_MESSAGE_SHOWING_YOUR_CHANGE"
+```
+
+:::note
+请将 `FILENAME` 替换为您修改的文件名，`SHORT_MESSAGE_SHOWING_YOUR_CHANGE` 替换为简短的描述您的修改的信息。
+
+我们推荐使用 [Conventional Commits 规范](https://www.conventionalcommits.org/) 来书写此处的 Commit 信息。
+:::
+
+7. 当您完成了所有的修改后，您可以使用下面的命令将您的分支推送到您的 GitHub 仓库，请使用与上面相同的分支名：
+
+```bash
+git push -u origin BRANCH_NAME
+```
+
+8. 前往 GitHub 网站到您复刻得到的仓库首页，您将会看到一个 “Compare & pull request” 按钮。点击它，填写 PR 的标题和描述，然后点击 “Create pull request” 按钮。
+
+9. 等待项目维护者的审核。如果您的 PR 被接受，您的修改将会被合并。
+
+### 更多参考内容
+
+- [为一个开源项目贡献代码 | GitHub 工作流 | 简明 GitHub 教程 | BlockLune's Blog](https://blocklune.cc/zh/posts/simple-github-tutorial/#%E4%B8%BA%E4%B8%80%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%B4%A1%E7%8C%AE%E4%BB%A3%E7%A0%81)
