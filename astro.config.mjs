@@ -21,7 +21,7 @@ export default defineConfig({
         {
           label: "简介",
           items: [
-            { label: "快速开始", slug: "intro/getting-started" },
+            { label: "前言", slug: "intro/preface" },
             { label: "贡献指南", slug: "intro/how-to-contribute" },
           ],
         },
