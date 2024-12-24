@@ -6,9 +6,23 @@ title: 大语言模型
 
 您会在您的学习和编程之旅中广泛地使用基于 LLM 的工具，例如 [Cursor](https://www.cursor.com/) 和 [GitHub Copilot](https://github.com/features/copilot) 已经深度融入了我的日常工作流中。并且，在可以预见的未来，这类工具将会变得越来越多、越来越强大、越来越普及。
 
-## 都有哪些 AI 模型和产品？
+## 都有哪些大语言模型和产品？
+您可以在[这里](https://lmarena.ai)了解到不同的大语言模型以及最新的排行榜。
 
-OpenAI: `gpt-3.5-turbo`, `gpt-4`, `gpt-4o`, `o1`
+为了保障您的合法权益，您可以使用官方网站体验大语言模型应用，这通常能带来比第三方服务更好的体验。以下是一些常见的大语言模型网页链接：
+
+### 国外
+请自行配置适当的网络代理服务（[什么是网络代理服务？](vpn-and-proxy)）
+- OpenAI: [ChatGPT](https://chatgpt.com)
+- Google: [Gemini](https://gemini.google.com)
+- Anthropic: [Claude](https://claude.ai)
+
+### 国内
+- 月之暗面: [Kimi](https://kimi.moonshot.cn)
+- 字节跳动: [豆包](https://www.doubao.com/)
+- 智谱华章: [智谱清言](https://chatglm.cn)
+- 阿里云: [通义千问](https://tongyi.aliyun.com/qianwen)
+
 
 ## 提示词工程
 
