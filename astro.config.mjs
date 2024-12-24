@@ -71,6 +71,10 @@ export default defineConfig({
               slug: "technology/intro",
             },
             {
+              label: "博客",
+              slug: "technology/blog",
+            },
+            {
               label: "语言",
               slug: "technology/languages",
             },
