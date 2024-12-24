@@ -21,7 +21,7 @@ export default defineConfig({
         {
           label: "简介",
           items: [
-            { label: "快速开始", slug: "intro/getting-started" },
+            { label: "前言", slug: "intro/preface" },
             { label: "贡献指南", slug: "intro/how-to-contribute" },
           ],
         },
@@ -71,6 +71,10 @@ export default defineConfig({
               slug: "technology/intro",
             },
             {
+              label: "博客",
+              slug: "technology/blog",
+            },
+            {
               label: "语言",
               slug: "technology/languages",
             },
@@ -85,6 +89,10 @@ export default defineConfig({
             {
               label: "Git 和 GitHub",
               slug: "technology/git-github",
+            },
+            {
+              label: "安装 Linux",
+              slug: "technology/linux",
             },
           ],
         },
