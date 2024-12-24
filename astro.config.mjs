@@ -20,7 +20,10 @@ export default defineConfig({
       sidebar: [
         {
           label: "简介",
-          items: [{ label: "快速开始", slug: "intro/getting-started" }],
+          items: [
+            { label: "快速开始", slug: "intro/getting-started" },
+            { label: "贡献指南", slug: "intro/how-to-contribute" },
+          ],
         },
         {
           label: "指南",
@@ -78,6 +81,10 @@ export default defineConfig({
             {
               label: "容器化",
               slug: "technology/containerization",
+            },
+            {
+              label: "Git 和 GitHub",
+              slug: "technology/git-github",
             },
           ],
         },
