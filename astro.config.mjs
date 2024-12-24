@@ -90,6 +90,10 @@ export default defineConfig({
               label: "Git 和 GitHub",
               slug: "technology/git-github",
             },
+            {
+              label: "安装 Linux",
+              slug: "technology/linux",
+            },
           ],
         },
       ],
